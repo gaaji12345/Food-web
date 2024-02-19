@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     *{
+        margin: 0;
+       padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins',sans-serif;
+     }
+     body{
+        color: aliceblue;
+        background:url(accests/images/vegetables-1085063_1280.jpg);
+     }
+     header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background: rgb(231, 212, 212);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+     }
+     div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+     }
+     div img{
+        width: 400px;
+        height: 300px;
+        border: 2px solid black;
+        border-radius: 13px;
+        box-shadow: 4px 7px 7px 0px black;
+        cursor: pointer;
+        margin: 10px;
+        transition: 400ms;
+     }
+     div img:hover{
+        filter: grayscale(1);
+        transform: scale(1.03);
+
+     }
+
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <a href= "#" > <strong>FOODY</strong></a>
+        
+        <nav style="text-decoration: none;">
+        <a href="#" >Home</a>
+        <a href="#" >About</a>
+        <a href="#" >Contact</a>
+        </nav>
+        </header>
+        <br><br><br><br><br>
+    
+        <div>
+        <img src="accests/recipeimages/13480.jpg" alt="">
+        <img src="accests/recipeimages/hamburger-1238246_1280.jpg" alt="">
+        <img src="accests/recipeimages/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg" alt="">
+     </div>
+    
+    
+</body>
+</html>
